@@ -1,0 +1,113 @@
+:root {
+  --bgBody: #272727;
+  --bgMain: rgba(176, 65, 62, 0.35);
+  --bgButton: rgba(176, 65, 62, 0.50);
+  --colorTxt: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bgBody);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin-top: 2rem;
+}
+
+main {
+  background-color: var(--bgMain);
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  color: var(--colorTxt);
+  max-width: 300px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main input#dpi {
+  padding: 0.4rem;
+  margin: 1rem 0rem
+}
+
+main button.dpi {
+  background: var(--bgButton);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  color: var(--colorTxt);
+  padding: 0.4rem 1rem;
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+}
+
+main button.dpi:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+main button.dpi:active{
+  color: black;
+  background-color: white;
+  transform: scale(1);
+}
+
+main button.sens {
+  background: var(--bgButton);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  color: var(--colorTxt);
+  padding: 0.4rem;
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.4rem 0rem;
+  transition: all 0.3s;
+}
+
+main button.sens:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+main button.sens:active {
+  color: black;
+  background-color: white;
+  transform: scale(1);
+}
+
+main button.sens:last-of-type {
+  margin-bottom: 1rem;
+}
+
+main p{
+  text-align: center;
+}
+
+main img{
+  margin-bottom: 1rem;
+}
+
+main footer a{
+  color: blanchedalmond;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+main footer a:hover {
+  color: black;
+}
