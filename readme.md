@@ -6,4 +6,5 @@ in Valorant.
 <br>
 <br>
 Access the app by <a href="https://valorant-sens.netlify.app/">clicking here</a>
+<br>
 <img src="./img/preview.png" alt="App preview">
