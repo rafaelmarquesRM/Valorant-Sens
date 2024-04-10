@@ -2,8 +2,13 @@ const dpi = document.querySelector('#dpi')
 const lowSens = document.querySelector('#low-sens')
 const highSens = document.querySelector('#high-sens')
 const confirm = document.querySelector('#confirm')
+const credits = document.querySelector('#credits')
 let average, dpiLowSens, dpiHighSens
 
+const date = new Date()
+const year = date.getFullYear()
+
+credits.innerHTML = `Made by <a href="https://github.com/rafaelmarquesrm">Rafael Marques</a> - ${year}`
 confirm.addEventListener('click', () => {
     average = 280 / dpi.value
     dpiLowSens = average / 2
