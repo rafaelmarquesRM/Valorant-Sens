@@ -10,7 +10,7 @@ const year = date.getFullYear()
 
 credits.innerHTML = `Made by <a href="https://github.com/rafaelmarquesrm">Rafael Marques</a> - ${year}`
 confirm.addEventListener('click', () => {
-    if (confirm.value == "") {
+    if (dpi.value.length === 0) {
         alert("Please! insert your DPI.")
     }
     else {
